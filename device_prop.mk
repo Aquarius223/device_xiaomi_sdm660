@@ -76,6 +76,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ov13855_sunny.light.lux=370 \
     persist.vendor.s5k3l8_ofilm.low.lux=379 \
     persist.vendor.s5k3l8_ofilm.light.lux=367 \
+    persist.vendor.camera.HAL3.enabled=1 \
     ro.eyecare.brightness.threshold=3 \
     ro.eyecare.brightness.level=8 \
     ro.hist.brightness.threshold=5 \
@@ -87,7 +88,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # DPI
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.display.lcd_density=480
+    vendor.display.lcd_density=440
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
