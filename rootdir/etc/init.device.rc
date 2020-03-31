@@ -30,7 +30,7 @@ on post-fs
 
 on boot
 # Set permission for double tap to wake support
-    chmod 0660 /proc/nvt_wake_gesture
+    chmod 0755 /proc/nvt_wake_gesture
     chown system system /proc/nvt_wake_gesture
 
 # Camera ID
